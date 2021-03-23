@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    margin-top: 100px;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5; 
+    text-align: center;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+span{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    
+}
+
+ul > li {
+    display: inline-block;
+    
+}
+ul > li > a {
+    color: black;
+    padding-right:50px ;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 100vw;
+    width: 100%;
+}
+.container h2 {
+   font-size: 50px;
+}
+.container.rosso {
+    background-color: red;
+}
+.container.verde {
+    background-color: green;
+}
+.container.giallo {
+    background-color: yellow;
+}
+
+.scarpe_titolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.giallo{
+    color: yellow;
+}
+
+.verde{
+    color: green;
+}
+
+
