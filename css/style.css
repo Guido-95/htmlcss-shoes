@@ -31,12 +31,12 @@ span{
 }
 
 ul > li {
+    padding-left: 40px;
     display: inline-block;
     
 }
 ul > li > a {
     color: black;
-    padding-right:50px ;
     text-decoration: none;
 }
 
