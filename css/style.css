@@ -1,3 +1,4 @@
+/* impostazioni reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -65,11 +66,11 @@ ul > li > a {
     transform: translate(-50%,-50%);
 }
 
-.giallo{
+.giallo {
     color: yellow;
 }
 
-.verde{
+.verde {
     color: green;
 }
 
